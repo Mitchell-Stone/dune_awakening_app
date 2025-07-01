@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # deep_desert
 
 A new Flutter project.
@@ -17,4 +16,3 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 =======
 # dune_awakening_app
->>>>>>> b9cfea386ad8d33bc964fdba396f8ddd53952e67
