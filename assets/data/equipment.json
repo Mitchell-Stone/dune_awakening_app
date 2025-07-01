@@ -1,0 +1,722 @@
+{
+  "equipment": [
+    {
+      "name": "Large Spice Refinery",
+      "type": "Refinery",
+      "description": "Processes Spice Sand into Spice Melange more efficiently than other spice refineries. Requires power from a base power generator to operate.",
+      "materials": [
+        { "type": "Plastanium Ingot", "amount": 950 },
+        { "type": "Silicon Block", "amount": 1080 },
+        { "type": "Complex Machinery", "amount": 350 },
+        { "type": "Spice Melange", "amount": 1000 },
+        { "type": "Cobalt Paste", "amount": 1110 },
+        { "type": "Advanced Machinery", "amount": 55 }
+      ],
+      "storage_capacity": {
+        "type": "Physical",
+        "volume": 1000
+      },
+      "power_usage": 500
+    },
+    {
+      "name": "Large Ore Refinery",
+      "type": "Refinery",
+      "description": "A refinery capable of producing high-end ingots and resources from raw materials. This ultra-efficient unit will produce higher yields from smaller quantities of raw materials.",
+      "materials": [
+        { "type": "Plastanium Ingot", "amount": 380 },
+        { "type": "Silicon Block", "amount": 540 },
+        { "type": "Spice Melange", "amount": 400 },
+        { "type": "Complex Machinery", "amount": 200 },
+        { "type": "Cobalt Paste", "amount": 745 },
+        { "type": "Advanced Machinery", "amount": 40 }
+      ],
+      "power_usage": 350
+    },
+    {
+      "name": "Advanced Garment Fabricator",
+      "type": "Fabricator",
+      "description": "A fabrication unit capable of producing advanced attire, from stillsuits to powerful armor. Place close to a Sub-Fief Console with the Construction Tool. Requires power from a base power generator to operate.",
+      "materials": [
+        { "type": "Plastanium Ingot", "amount": 140 },
+        { "type": "Silicon Block", "amount": 180 },
+        { "type": "Complex Machinery", "amount": 100 },
+        { "type": "Spice Melange", "amount": 45 },
+        { "type": "Cobalt Paste", "amount": 150 },
+        { "type": "Armor Plating", "amount": 115 }
+      ],
+      "power_usage": 150
+    },
+    {
+      "name": "Advanced Survival Fabricator",
+      "type": "Fabricator",
+      "description": "A fabrication unit capable of producing specialized products for survival, exploration, and mining. Place close to a Sub-Fief Console with the Construction Tool. Requires power from a base power generator to operate.",
+      "materials": [
+        { "type": "Plastanium Ingot", "amount": 140 },
+        { "type": "Silicon Block", "amount": 180 },
+        { "type": "Complex Machinery", "amount": 100 },
+        { "type": "Spice Melange", "amount": 45 },
+        { "type": "Cobalt Paste", "amount": 150 },
+        { "type": "Thermoelectric Cooler", "amount": 30 }
+      ],
+      "power_usage": 150
+    },
+    {
+      "name": "Advanced Fremen Deathstill",
+      "type": "Refinery",
+      "description": "A complex device capable of extracting water from a corpse. Place close to a Sub-Fief Console with the Construction Tool. Requires power from a base power generator to operate.",
+      "materials": [
+        { "type": "Duraluminum Ingot", "amount": 240 },
+        { "type": "Silicon Block", "amount": 170 },
+        { "type": "Complex Machinery", "amount": 70 }
+      ],
+      "storage_capacity": {
+        "type": "Water",
+        "volume": 500
+      },
+      "power_usage": 350
+    },
+    {
+      "name": "Fremen Deathstill",
+      "type": "Refinery",
+      "description": "A complex device capable of extracting water from a corpse. Place close to a Sub-Fief Console with the Construction Tool. Requires power from a base power generator to operate.",
+      "materials": [
+        { "type": "Steel Ingot", "amount": 60 },
+        { "type": "Silicon Block", "amount": 28 },
+        { "type": "Complex Machinery", "amount": 70 }
+      ],
+      "storage_capacity": {
+        "type": "Water",
+        "volume": 500
+      },
+      "power_usage": 350
+    },
+    {
+      "name": "Advanced Vehicle Fabricator",
+      "type": "Fabricator",
+      "description": "A fabrication unit capable of producing components for advanced vehicles like the Buggy or Ornithopter. Place close to a Sub-Fief Console with the Construction Tool. Requires power from a base power generator to operate.",
+      "materials": [
+        { "type": "Plastanium Ingot", "amount": 140 },
+        { "type": "Silicon Block", "amount": 180 },
+        { "type": "Complex Machinery", "amount": 100 },
+        { "type": "Spice Melange", "amount": 45 },
+        { "type": "Cobalt Paste", "amount": 150 },
+        { "type": "Industrial Pump", "amount": 50 }
+      ],
+      "storage_capacity": {
+        "type": "Physical",
+        "volume": 200
+      },
+      "power_usage": 150
+    },
+    {
+      "name": "Advanced Weapons Fabricator",
+      "type": "Fabricator",
+      "description": "A fabrication unit capable of producing advanced weaponry. Place close to a Sub-Fief Console with the Construction Tool. Requires power from a base power generator to operate.",
+      "materials": [
+        { "type": "Plastanium Ingot", "amount": 140 },
+        { "type": "Silicon Block", "amount": 180 },
+        { "type": "Complex Machinery", "amount": 100 },
+        { "type": "Spice Melange", "amount": 45 },
+        { "type": "Cobalt Paste", "amount": 150 },
+        { "type": "Military Power Regulator", "amount": 40 }
+      ],
+      "storage_capacity": {
+        "type": "Physical",
+        "volume": 200
+      },
+      "power_usage": 150
+    },
+    {
+      "name": "Fabricator",
+      "type": "Fabricator",
+      "description": "A fabrication unit capable of producing complex items. Place close to a Sub-Fief Console with the Construction Tool. Requires power from a base power generator to operate.",
+      "materials": [
+        { "type": "Salvaged Metal", "amount": 75 }
+      ],
+      "storage_capacity": {
+        "type": "Physical",
+        "volume": 200
+      },
+      "power_usage": 10
+    },
+    {
+      "name": "Small Chemical Refinery",
+      "type": "Refinery",
+      "description": "Refinery capable of processing raw resources into Cobalt Ingots, Silicone Blocks, and Fuel Cell Packs. Place close to a Sub-Fief Console with the Construction Tool. Requires power from a base power generator to operate.",
+      "materials": [
+        { "type": "Copper Ingot", "amount": 45 }
+      ],
+      "storage_capacity": {
+        "type": "Physical",
+        "volume": 200
+      },
+      "power_usage": 15
+    },
+    {
+      "name": "Small Ore Refinery",
+      "type": "Refinery",
+      "description": "Processes raw Copper ore, Carbon ore, and Iron ore into Refined Resources. Can also create Steel ingots from Iron and Carbon.",
+      "materials": [
+        { "type": "Salvaged Metal", "amount": 90 }
+      ],
+      "storage_capacity": {
+        "type": "Physical",
+        "volume": 200
+      },
+      "power_usage": 15
+    },
+    {
+      "name": "Spice Refinery",
+      "type": "Refinery",
+      "description": "Processes Spice Sand into valuable Spice Melange. Can be sold or used in further crafting. Must be powered through additional base power installations.",
+      "materials": [
+        { "type": "Duraluminum Ingot", "amount": 160 },
+        { "type": "Silicon Block", "amount": 130 },
+        { "type": "Cobalt Paste", "amount": 80 },
+        { "type": "Complex Machinery", "amount": 70 }
+      ],
+      "storage_capacity": {
+        "type": "Physical",
+        "volume": 200
+      },
+      "power_usage": 15
+    },
+    {
+      "name": "Garment Fabricator",
+      "type": "Fabricator",
+      "description": "Machine that can craft advanced attire, from stillsuits to powerful armor. Place close to a Sub-Fief Console with the Construction Tool. Must be powered through additional base power installations to function.",
+      "materials": [
+        { "type": "Steel Ingot", "amount": 40 },
+        { "type": "Complex Machinery", "amount": 30 }
+      ],
+      "storage_capacity": {
+        "type": "Physical",
+        "volume": 200
+      },
+      "power_usage": 40
+    },
+    {
+      "name": "Survival Fabricator",
+      "type": "Fabricator",
+      "description": "Machine that can craft specialized products for survival, exploration, mining. Place close to a Sub-Fief Console with the Construction Tool. Needs power.",
+      "materials": [
+        { "type": "Steel Ingot", "amount": 40 },
+        { "type": "Complex Machinery", "amount": 30 }
+      ],
+      "storage_capacity": {
+        "type": "Physical",
+        "volume": 200
+      },
+      "power_usage": 40
+    },
+    {
+      "name": "Vehicle Fabricator",
+      "type": "Fabricator",
+      "description": "Machine that can craft advanced vehicles like the Buggy or Ornithopter. Place close to a Sub-Fief Console with the Construction Tool. Must be powered through additional base power installations to function.",
+      "materials": [
+        { "type": "Steel Ingot", "amount": 40 },
+        { "type": "Complex Machinery", "amount": 30 }
+      ],
+      "storage_capacity": {
+        "type": "Physical",
+        "volume": 200
+      },
+      "power_usage": 40
+    },
+    {
+      "name": "Weapons Fabricator",
+      "type": "Fabricator",
+      "description": "Machine that can craft advanced weaponry. Place close to a Sub-Fief Console with the Construction Tool. Must be powered through additional base power installations to function.",
+      "materials": [
+        { "type": "Steel Ingot", "amount": 40 },
+        { "type": "Complex Machinery", "amount": 30 }
+      ],
+      "storage_capacity": {
+        "type": "Physical",
+        "volume": 200
+      },
+      "power_usage": 40
+    },
+    {
+      "name": "Medium Ore Refinery",
+      "type": "Fabricator",
+      "description": "A refinery capable of producing Aluminum and Duraluminum ingots from raw Aluminum and Jasmium ore.",
+      "materials": [
+        { "type": "Steel Ingot", "amount": 125 },
+        { "type": "Cobalt Paste", "amount": 60 },
+        { "type": "Complex Machinery", "amount": 50 }
+      ],
+      "storage_capacity": {
+        "type": "Physical",
+        "volume": 200
+      },
+      "power_usage": 40
+    },
+    {
+      "name": "Large Water Cistern",
+      "type": "Storage",
+      "description": "Fragile container for storing a large quantity of water that can be utilized in the operation of multiple base production units. Place close to a Sub-Fief Console with the Construction Tool.",
+      "materials": [
+        { "type": "Duraluminum Ingot", "amount": 150 },
+        { "type": "Silicon Block", "amount": 160 },
+        { "type": "Industrial Pump", "amount": 25 }
+      ],
+      "storage_capacity": {
+        "type": "Water",
+        "volume": 100000
+      },
+      "power_usage": 0
+    },
+    {
+      "name": "Medium Water Cistern",
+      "type": "Storage",
+      "description": "Fragile container for storing water that can be utilized in the operation of multiple base production units. Place close to a Sub-Fief Console with the Construction Tool.",
+      "materials": [
+        { "type": "Steel Ingot", "amount": 60 },
+        { "type": "Silicon Block", "amount": 30 }
+      ],
+      "storage_capacity": {
+        "type": "Water",
+        "volume": 25000
+      },
+      "power_usage": 0
+    },
+    {
+      "name": "Medium Chemical Refinery",
+      "type": "Refinery",
+      "description": "A medium-sized Chemical Refinery. Can be used to refine resources with better efficiency. Place close to a Sub-Fief Console with the Construction Tool.",
+      "materials": [
+        { "type": "Duraluminum Ingot", "amount": 150 },
+        { "type": "Silicon Block", "amount": 90 },
+        { "type": "Complex Machinery", "amount": 50 },
+        { "type": "Spice Melange", "amount": 35 }
+      ],
+      "storage_capacity": {
+        "type": "Physical",
+        "volume": 200
+      },
+      "power_usage": 350
+    },
+    {
+      "name": "Medium Spice Refinery",
+      "type": "Refinery",
+      "description": "Processes Spice Sand into Spice Melange more efficiently than the Small Spice Refinery. Requires power from a base power generator to operate.",
+      "materials": [
+        { "type": "Plastanium Ingot", "amount": 285 },
+        { "type": "Silicon Block", "amount": 225 },
+        { "type": "Spice Melange", "amount": 135 },
+        { "type": "Complex Machinery", "amount": 100 },
+        { "type": "Cobalt Paste", "amount": 190 }
+      ],
+      "storage_capacity": {
+        "type": "Physical",
+        "volume": 500
+      },
+      "power_usage": 350
+    },
+    {
+      "name": "Large Windtrap",
+      "type": "Utility",
+      "description": "Machine that collects a lot of water from the environment over time, re-routable between base production and storage structures. Requires a Filter for operation. Place close to a Sub-Fief Console with the Construction Tool.",
+      "materials": [
+        { "type": "Duraluminum Ingot", "amount": 240 },
+        { "type": "Silicon Block", "amount": 250 },
+        { "type": "Calibrated Servok", "amount": 70 },
+        { "type": "Spice Melange", "amount": 5 }
+      ],
+      "storage_capacity": {
+        "type": "Water",
+        "volume": 500
+      },
+      "power_usage": 135
+    },
+    {
+      "name": "Medium Storage Container",
+      "type": "Storage",
+      "description": "A medium external storage container. Place close to a Sub-Fief Console with the Construction Tool. Its contents can be accessed by devices throughout a base via the included storage circuits.",
+      "materials": [
+        { "type": "Plastanium Ingot", "amount": 70 },
+        { "type": "Silicon Block", "amount": 14 },
+        { "type": "Spice Melange", "amount": 4 }
+      ],
+      "storage_capacity": {
+        "type": "Physical",
+        "volume": 3500
+      },
+      "power_usage": 0
+    },
+    {
+      "name": "Storage Container",
+      "type": "Storage",
+      "description": "An enlarged external storage container. Place close to a Sub-Fief Console with the Construction Tool. Its contents can be accessed by devices throughout a base via the included storage circuits.",
+      "materials": [
+        { "type": "Aluminium Ingot", "amount": 45 },
+        { "type": "Silicon Block", "amount": 8 }
+      ],
+      "storage_capacity": {
+        "type": "Physical",
+        "volume": 1750
+      },
+      "power_usage": 0
+    },
+    {
+      "name": "Recycler",
+      "type": "Utility",
+      "description": "Machine that disassembles an item, returning a portion of its component materials. The quantity of returned materials is dependent on the condition of the recycled item. Place close to a Sub-Fief Console with the Construction Tool.",
+      "materials": [{ "type": "Copper Ingot", "amount": 30 }],
+      "power_usage": 15
+    },
+    {
+      "name": "Small Storage Container",
+      "type": "Storage",
+      "description": "A small external storage container. Place close to a Sub-Fief Console with the Construction Tool. Its contents can be accessed throughout a base via the included storage circuits.",
+      "materials": [{ "type": "Salvaged Metal", "amount": 35 }],
+      "storage_capacity": {
+        "type": "Physical",
+        "volume": 250
+      },
+      "power_usage": 0
+    },
+    {
+      "name": "Chest",
+      "type": "Storage",
+      "description": "An external storage container. Place close to a Sub-Fief Console with the Construction Tool. Its contents can be accessed by devices throughout a base via the included storage circuits.",
+      "materials": [{ "type": "Iron Ingot", "amount": 20 }],
+      "storage_capacity": {
+        "type": "Physical",
+        "volume": 750
+      },
+      "power_usage": 0
+    },
+    {
+      "name": "Sub-Fief Console",
+      "type": "Utility",
+      "description": "Essential device that claims a piece of land to build on. Place with the Construction Tool. The console can generate a shield that will protect a base from damage when powered by a generator placed nearby.",
+      "materials": [{ "type": "Salvaged Metal", "amount": 25 }],
+      "power_usage": 15
+    },
+    {
+      "name": "Advanced Sub-Fief Console",
+      "type": "Utility",
+      "description": "This console claims a large piece of land to build on, which can be further expanded with staking units. Land claimed with this device is subject to a recurring Solari tax which can be paid in cities.",
+      "materials": [{ "type": "Salvaged Metal", "amount": 40 }],
+      "power_usage": 15
+    },
+    {
+      "name": "Blood Purifier",
+      "type": "Refinery",
+      "description": "A filtration system capable of extracting water from blood collected in a Blood Sack. Place close to a Sub-Fief Console with the Construction Tool. Requires power from a base power generator to operate.",
+      "materials": [{ "type": "Salvaged Metal", "amount": 70 }],
+      "storage_capacity": {
+        "type": "Water",
+        "volume": 1000
+      },
+      "power_usage": 10
+    },
+    {
+      "name": "Improved Blood Purifier",
+      "type": "Refinery",
+      "description": "A filtration system capable of extracting water from blood collected in a Blood Sack. Place close to a Sub-Fief Console with the Construction Tool. Requires power from a base power generator to operate.",
+      "materials": [
+        { "type": "Iron Ingot", "amount": 50 },
+        { "type": "Silicon Block", "amount": 16 },
+        { "type": "Complex Machinery", "amount": 20 }
+      ],
+      "storage_capacity": {
+        "type": "Water",
+        "volume": 1000
+      },
+      "power_usage": 35
+    },
+    {
+      "name": "Repair Station",
+      "type": "Utility",
+      "description": "Machine that can restore lost durability in items. Each time an item is repaired its maximum durability decreases. Repairs require appropriate materials and schematics. Placed with the Construction Tool.",
+      "materials": [{ "type": "Iron Ingot", "amount": 40 }],
+      "power_usage": 20
+    },
+    {
+      "name": "Pentashield Surface Horizontal",
+      "type": "Utility",
+      "description": "Pentashield Surface Horizontal",
+      "materials": [
+        { "type": "Steel Ingot", "amount": 2 },
+        { "type": "Cobalt Paste", "amount": 20 },
+        { "type": "Calibrated Servok", "amount": 6 }
+      ],
+      "power_usage": 3
+    },
+    {
+      "name": "Pentashield Surface Vertical",
+      "type": "Utility",
+      "description": "Pentashield Surface Vertical",
+      "materials": [
+        { "type": "Steel Ingot", "amount": 2 },
+        { "type": "Cobalt Paste", "amount": 20 },
+        { "type": "Calibrated Servok", "amount": 6 }
+      ],
+      "power_usage": 3
+    },
+    {
+      "name": "Roof Piece - Stronghold",
+      "type": "Building",
+      "description": "Any roof piece that can be used to cover a building. Place close to a Sub-Fief Console with the Construction Tool.",
+      "materials": [
+        { "type": "Plastone", "amount": 12 }
+      ],
+      "power_usage": 0
+    },
+    {
+      "name": "Floor Piece - Stronghold",
+      "type": "Building",
+      "description": "Any floor piece that can be used to cover a building. Place close to a Sub-Fief Console with the Construction Tool.",
+      "materials": [
+        { "type": "Plastone", "amount": 12 }
+      ],
+      "power_usage": 0
+    },
+    {
+      "name": "Hatch Piece - Stronghold",
+      "type": "Building",
+      "description": "Any hatch piece that can be use to create a horizontal opening in a building. Place close to a Sub-Fief Console with the Construction Tool.",
+      "materials": [
+        { "type": "Plastone", "amount": 10 }
+      ],
+      "power_usage": 0
+    },
+    {
+      "name": "Wall Piece - Stronghold",
+      "type": "Building",
+      "description": "Any wall piece that can be use to enclose a building. Place close to a Sub-Fief Console with the Construction Tool.",
+      "materials": [
+        { "type": "Plastone", "amount": 12 }
+      ],
+      "power_usage": 0
+    },
+    {
+      "name": "Door - Stronghold",
+      "type": "Building",
+      "description": "A basic door piece that can be use to create a vertical opening in a building. Place close to a Sub-Fief Console with the Construction Tool.",
+      "materials": [
+        { "type": "Plastone", "amount": 10 }
+      ],
+      "power_usage": 0
+    },
+    {
+      "name": "Prudence Door - Stronghold",
+      "type": "Building",
+      "description": "A pentashield door piece that can be use to create a vertical opening in a building. Place close to a Sub-Fief Console with the Construction Tool.",
+      "materials": [
+        { "type": "Plastone", "amount": 12 }
+      ],
+      "power_usage": 0
+    },
+    {
+      "name": "Wide Door - Stronghold",
+      "type": "Building",
+      "description": "A wider door piece that can be use to create a vertical opening in a building. Place close to a Sub-Fief Console with the Construction Tool.",
+      "materials": [
+        { "type": "Plastone", "amount": 25 }
+      ],
+      "power_usage": 0
+    },
+    {
+      "name": "Tall Door - Stronghold",
+      "type": "Building",
+      "description": "A tall door piece that can be use to create a vertical opening in a building. Place close to a Sub-Fief Console with the Construction Tool.",
+      "materials": [
+        { "type": "Plastone", "amount": 10 }
+      ],
+      "power_usage": 0
+    },
+    {
+      "name": "Column Piece - Stronghold",
+      "type": "Building",
+      "description": "A column piece that can be use to create vertical support in a building. Place close to a Sub-Fief Console with the Construction Tool.",
+      "materials": [
+        { "type": "Plastone", "amount": 12 }
+      ],
+      "power_usage": 0
+    },
+    {
+      "name": "Pillar Piece - Stronghold",
+      "type": "Building",
+      "description": "A pillar piece that can be use to create vertical support in a building. Place close to a Sub-Fief Console with the Construction Tool.",
+      "materials": [
+        { "type": "Plastone", "amount": 12 }
+      ],
+      "power_usage": 0
+    },
+    {
+      "name": "Foundation Piece - Stronghold",
+      "type": "Building",
+      "description": "A foundation piece that can be use to create a base for a building. Place close to a Sub-Fief Console with the Construction Tool.",
+      "materials": [
+        { "type": "Plastone", "amount": 18 }
+      ],
+      "power_usage": 0
+    },
+    {
+      "name": "Roof Piece - CHOAM",
+      "type": "Building",
+      "description": "Any roof piece that can be used to cover a building. Place close to a Sub-Fief Console with the Construction Tool.",
+      "materials": [
+        { "type": "Granite Stone", "amount": 12 }
+      ],
+      "power_usage": 0
+    },
+    {
+      "name": "Floor Piece - CHOAM",
+      "type": "Building",
+      "description": "Any floor piece that can be used to cover a building. Place close to a Sub-Fief Console with the Construction Tool.",
+      "materials": [
+        { "type": "Granite Stone", "amount": 12 }
+      ],
+      "power_usage": 0
+    },
+    {
+      "name": "Hatch Piece - CHOAM",
+      "type": "Building",
+      "description": "Any hatch piece that can be use to create a horizontal opening in a building. Place close to a Sub-Fief Console with the Construction Tool.",
+      "materials": [
+        { "type": "Granite Stone", "amount": 10 }
+      ],
+      "power_usage": 0
+    },
+    {
+      "name": "Wall Piece - CHOAM",
+      "type": "Building",
+      "description": "Any wall piece that can be use to enclose a building. Place close to a Sub-Fief Console with the Construction Tool.",
+      "materials": [
+        { "type": "Granite Stone", "amount": 8 }
+      ],
+      "power_usage": 0
+    },
+    {
+      "name": "Door - CHOAM",
+      "type": "Building",
+      "description": "A basic door piece that can be use to create a vertical opening in a building. Place close to a Sub-Fief Console with the Construction Tool.",
+      "materials": [
+        { "type": "Granite Stone", "amount": 5 }
+      ],
+      "power_usage": 0
+    },
+    {
+      "name": "Passageway - CHOAM",
+      "type": "Building",
+      "description": "A passageway that can be use to create a vertical opening in a building. Place close to a Sub-Fief Console with the Construction Tool.",
+      "materials": [
+        { "type": "Granite Stone", "amount": 8 }
+      ],
+      "power_usage": 0
+    },
+    {
+      "name": "Wide Door - CHOAM",
+      "type": "Building",
+      "description": "A wider door piece that can be use to create a vertical opening in a building. Place close to a Sub-Fief Console with the Construction Tool.",
+      "materials": [
+        { "type": "Granite Stone", "amount": 16 }
+      ],
+      "power_usage": 0
+    },
+    {
+      "name": "Tall Door - CHOAM",
+      "type": "Building",
+      "description": "A tall door piece that can be use to create a vertical opening in a building. Place close to a Sub-Fief Console with the Construction Tool.",
+      "materials": [
+        { "type": "Granite Stone", "amount": 10 }
+      ],
+      "power_usage": 0
+    },
+    {
+      "name": "Column Piece - CHOAM",
+      "type": "Building",
+      "description": "A column piece that can be use to create vertical support in a building. Place close to a Sub-Fief Console with the Construction Tool.",
+      "materials": [
+        { "type": "Granite Stone", "amount": 8 }
+      ],
+      "power_usage": 0
+    },
+    {
+      "name": "Pillar Piece - CHOAM",
+      "type": "Building",
+      "description": "A pillar piece that can be use to create vertical support in a building. Place close to a Sub-Fief Console with the Construction Tool.",
+      "materials": [
+        { "type": "Granite Stone", "amount": 8 }
+      ],
+      "power_usage": 0
+    },
+    {
+      "name": "Foundation Piece - CHOAM",
+      "type": "Building",
+      "description": "A foundation piece that can be use to create a base for a building. Place close to a Sub-Fief Console with the Construction Tool.",
+      "materials": [
+        { "type": "Granite Stone", "amount": 12 }
+      ],
+      "power_usage": 0
+    }
+  ],
+  "power": [
+    {
+      "name": "Spice-Powered Generator",
+      "type": "Power",
+      "description": "A wind-driven turbine that generates a large amount of re-routable power for base production structures. Requires Lubricant for operation. Place close to a Sub-Fief Console with the Construction Tool.",
+      "materials": [
+        { "type": "Plastanium Ingot", "amount": 430 },
+        { "type": "Silicon Block", "amount": 180 },
+        { "type": "Spice Melange", "amount": 270 },
+        { "type": "Complex Machinery", "amount": 100 },
+        { "type": "Cobalt Paste", "amount": 300 },
+        { "type": "Advanced Machinery", "amount": 40 }
+      ],
+      "fuel": {
+        "type": "Spice-infused Fuel Cell",
+        "amount_per_day": 16
+      },
+      "power_generated": 1000
+    },
+    {
+      "name": "Wind Turbine Directional",
+      "type": "Power",
+      "description": "A wind-driven turbine that generates a large amount of re-routable power for base production structures. Requires Lubricant for operation. Place close to a Sub-Fief Console with the Construction Tool.",
+      "materials": [
+        { "type": "Duraluminum Ingot", "amount": 120 },
+        { "type": "Cobalt Paste", "amount": 160 },
+        { "type": "Calibrated Servok", "amount": 50 },
+        { "type": "Spice Melange", "amount": 3 }
+      ],
+      "fuel": {
+        "type": "Industrial-grade Lubricant",
+        "amount_per_day": 16
+      },
+      "power_generated": 350
+    },
+    {
+      "name": "Wind Turbine Omnidirectional",
+      "type": "Power",
+      "description": "A wind-driven turbine that generates a large amount of re-routable power for base production structures. Requires Lubricant for operation. Place close to a Sub-Fief Console with the Construction Tool.",
+      "materials": [
+        { "type": "Steel Ingot", "amount": 45 },
+        { "type": "Cobalt Paste", "amount": 65 },
+        { "type": "Calibrated Servok", "amount": 35 }
+      ],
+      "fuel": {
+        "type": "Low-grade Lubricant",
+        "amount_per_day": 24
+      },
+      "power_generated": 150
+    },
+
+    {
+      "name": "Fuel-Powered Generator",
+      "type": "Power",
+      "description": "Fuel-Powered Generator",
+      "materials": [{ "type": "Salvaged Metal", "amount": 45 }],
+      "fuel": {
+        "type": "Fuel C",
+        "amount_per_day": 24
+      },
+      "power_generated": 75
+    }
+  ]
+}
