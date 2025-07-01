@@ -1,0 +1,1246 @@
+[
+  {
+    "name": "Sandbike",
+    "description": "A rugged bike designed for sandy terrains, perfect for desert adventures.",
+    "assemblyRequirement": {
+      "eninges": 1,
+      "chassiss": 1,
+      "hulls": 1,
+      "psus": 1,
+      "treads": 3
+    },
+    "parts": {
+      "engines": [
+        {
+          "type": "Sandbike Engine Mk1",
+          "description": "Defines the acceleration and speed of a Sandbike. Use a Welding Torch to attach the engine to a Sandbike Chassis.",
+          "durability": 1000,
+          "assemblyRequirement": "Mandatory",
+          "acceleration": "Very Fast",
+          "speedKmh": 70,
+          "powerConsumptionPerSecond": 5.38,
+          "materials": [
+            {
+              "type": "Copper Ingot",
+              "amount": 5
+            },
+            {
+              "name": "Particle Capacitor",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "type": "Sandbike Engine Mk2",
+          "description": "Defines the acceleration and speed of a Sandbike. Use a Welding Torch to attach the engine to a Sandbike Chassis.",
+          "durability": 1000,
+          "assemblyRequirement": "Mandatory",
+          "acceleration": "Very Fast",
+          "speedKmh": 78,
+          "powerConsumptionPerSecond": 5.91,
+          "materials": [
+            {
+              "type": "Iron Ingot",
+              "amount": 10
+            },
+            {
+              "name": "Particle Capacitor",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "type": "Sandbike Engine Mk3",
+          "description": "Defines the acceleration and speed of a Sandbike. Use a Welding Torch to attach the engine to a Sandbike Chassis.",
+          "durability": 1000,
+          "assemblyRequirement": "Mandatory",
+          "acceleration": "Very Fast",
+          "speedKmh": 85,
+          "powerConsumptionPerSecond": 6.45,
+          "materials": [
+            {
+              "type": "Steel Ingot",
+              "amount": 10
+            },
+            {
+              "name": "Particle Capacitor",
+              "amount": 16
+            },
+            {
+              "type": "Cobalt Paste",
+              "amount": 11
+            },
+            {
+              "type": "Complex Machinery",
+              "amount": 10
+            },
+            {
+              "type": "Water",
+              "amount": 135
+            }
+          ]
+        },
+        {
+          "type": "Sandbike Engine Mk4",
+          "description": "Defines the acceleration and speed of a Sandbike. Use a Welding Torch to attach the engine to a Sandbike Chassis.",
+          "durability": 1000,
+          "assemblyRequirement": "Mandatory",
+          "acceleration": "Very Fast",
+          "speedKmh": 93,
+          "powerConsumptionPerSecond": 6.99,
+          "materials": [
+            {
+              "type": "Aluminum Ingot",
+              "amount": 20
+            },
+            {
+              "type": "Cobalt Paste",
+              "amount": 18
+            },
+            {
+              "name": "Particle Capacitor",
+              "amount": 11
+            },
+            {
+              "type": "Complex Machinery",
+              "amount": 15
+            },
+            {
+              "type": "Water",
+              "amount": 338
+            }
+          ]
+        },
+        {
+          "type": "Sandbike Engine Mk5",
+          "description": "Defines the acceleration and speed of a Sandbike. Use a Welding Torch to attach the engine to a Sandbike Chassis.",
+          "durability": 1000,
+          "assemblyRequirement": "Mandatory",
+          "acceleration": "Very Fast",
+          "speedKmh": 100,
+          "powerConsumptionPerSecond": 7.52,
+          "materials": [
+            {
+              "type": "Duraluminum Ingot",
+              "amount": 30
+            },
+            {
+              "type": "Cobalt Paste",
+              "amount": 25
+            },
+            {
+              "name": "Particle Capacitor",
+              "amount": 14
+            },
+            {
+              "type": "Complex Machinery",
+              "amount": 21
+            },
+            {
+              "type": "Hydraulic Piston",
+              "amount": 7
+            },
+            {
+              "type": "Water",
+              "amount": 675
+            }
+          ]
+        },
+        {
+          "type": "Sandbike Engine Mk6",
+          "description": "Defines the acceleration and speed of a Sandbike. Use a Welding Torch to attach the engine to a Sandbike Chassis.",
+          "durability": 1000,
+          "assemblyRequirement": "Mandatory",
+          "acceleration": "Very Fast",
+          "speedKmh": 108,
+          "powerConsumptionPerSecond": 8.06,
+          "materials": [
+            {
+              "type": "Plastanium Ingot",
+              "amount": 30
+            },
+            {
+              "type": "Cobalt Paste",
+              "amount": 45
+            },
+            {
+              "name": "Particle Capacitor",
+              "amount": 18
+            },
+            {
+              "type": "Complex Machinery",
+              "amount": 30
+            },
+            {
+              "type": "Spice Melange",
+              "amount": 54
+            },
+            {
+              "type": "Tri-Forged Hydraulic Piston",
+              "amount": 9
+            },
+            {
+              "type": "Water",
+              "amount": 105
+            }
+          ]
+        }
+      ],
+      "boosters": [
+        {
+          "type": "Sandbike Booster Mk2",
+          "description": "Adds a boost ability to the Sandbike providing a temporary increase in acceleration and top speed. Use a Welding Torch to attach it to a Sandbike Hull.",
+          "durability": 1000,
+          "assemblyRequirement": "Optional",
+          "armor": 500,
+          "boostRating": 7.1,
+          "extraHeat": 125,
+          "powerConsumptionPerSecond": 5.91,
+          "materials": [
+            {
+              "type": "Iron Ingot",
+              "amount": 23
+            },
+            {
+              "name": "Particle Capacitor",
+              "amount": 15
+            },
+            {
+              "type": "Holtzman Actuator",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "type": "Sandbike Booster Mk3",
+          "description": "Adds a boost ability to the Sandbike providing a temporary increase in acceleration and top speed. Use a Welding Torch to attach it to a Sandbike Hull.",
+          "durability": 1000,
+          "assemblyRequirement": "Optional",
+          "armor": 750,
+          "boostRating": 7.9,
+          "extraHeat": 125,
+          "powerConsumptionPerSecond": 6.45,
+          "materials": [
+            {
+              "type": "Steel Ingot",
+              "amount": 30
+            },
+            {
+              "name": "Particle Capacitor",
+              "amount": 29
+            },
+            {
+              "type": "Cobalt Paste",
+              "amount": 17
+            },
+            {
+              "type": "Holtzman Actuator",
+              "amount": 25
+            },
+            {
+              "type": "Water",
+              "amount": 200
+            }
+          ]
+        }
+      ],
+      "chassis": [
+        {
+          "type": "Sandbike Chassis Mk1",
+          "description": "The chassis is the starting point for assembling vehicles as it provides the base framework to which all other components are attached. Use a Welding Torch to place the Sandbike chassis.",
+          "durability": 2000,
+          "assemblyRequirement": "Mandatory",
+          "armor": 250,
+          "fuelCapacity": 100,
+          "materials": [
+            {
+              "type": "Copper Ingot",
+              "amount": 12
+            },
+            {
+              "type": "Advanced Servoks",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "type": "Sandbike Chassis Mk2",
+          "description": "The chassis is the starting point for assembling vehicles as it provides the base framework to which all other components are attached. Use a Welding Torch to place the Sandbike chassis.",
+          "durability": 2000,
+          "assemblyRequirement": "Mandatory",
+          "armor": 500,
+          "fuelCapacity": 110,
+          "materials": [
+            {
+              "type": "Iron Ingot",
+              "amount": 20
+            },
+            {
+              "type": "Advanced Servoks",
+              "amount": 8
+            },
+            {
+              "type": "Water",
+              "amount": 20
+            }
+          ]
+        },
+        {
+          "type": "Sandbike Chassis Mk3",
+          "description": "The chassis is the starting point for assembling vehicles as it provides the base framework to which all other components are attached. Use a Welding Torch to place the Sandbike chassis.",
+          "durability": 2000,
+          "assemblyRequirement": "Mandatory",
+          "armor": 750,
+          "fuelCapacity": 120,
+          "materials": [
+            {
+              "type": "Steel Ingot",
+              "amount": 25
+            },
+            {
+              "type": "Advanced Servoks",
+              "amount": 12
+            },
+            {
+              "type": "Cobalt Paste",
+              "amount": 11
+            },
+            {
+              "type": "Water",
+              "amount": 135
+            }
+          ]
+        },
+        {
+          "type": "Sandbike Chassis Mk4",
+          "description": "The chassis is the starting point for assembling vehicles as it provides the base framework to which all other components are attached. Use a Welding Torch to place the Sandbike chassis.",
+          "durability": 2000,
+          "assemblyRequirement": "Mandatory",
+          "armor": 1000,
+          "fuelCapacity": 130,
+          "materials": [
+            {
+              "type": "Aluminum Ingot",
+              "amount": 45
+            },
+            {
+              "type": "Advanced Servoks",
+              "amount": 16
+            },
+            {
+              "type": "Cobalt Paste",
+              "amount": 18
+            },
+            {
+              "type": "Carbide Scraps",
+              "amount": 7
+            },
+            {
+              "type": "Water",
+              "amount": 340
+            }
+          ]
+        }
+      ],
+      "hulls": [
+        [
+          {
+            "type": "Sandbike Hull Mk1",
+            "description": "Protects the inner mechanisms of the Sandbike and provides seating for the driver. Use a Welding Torch to attach the hull to a Sandbike Chassis.",
+            "durability": 1500,
+            "assemblyRequirement": "Mandatory",
+            "armor": 250,
+            "seats": 1,
+            "utilitySlots": 2,
+            "materials": [
+              {
+                "type": "Copper Ingot",
+                "amount": 12
+              },
+              {
+                "type": "Advanced Servoks",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "type": "Sandbike Hull Mk2",
+            "description": "Protects the inner mechanisms of the Sandbike and provides seating for the driver. Use a Welding Torch to attach the hull to a Sandbike Chassis.",
+            "durability": 1500,
+            "assemblyRequirement": "Mandatory",
+            "armor": 500,
+            "seats": 1,
+            "utilitySlots": 2,
+            "materials": [
+              {
+                "type": "Iron Ingot",
+                "amount": 20
+              },
+              {
+                "type": "Advanced Servoks",
+                "amount": 8
+              },
+              {
+                "type": "Armor Plating",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      ],
+      "psus": [
+        {
+          "type": "Sandbike PSU Mk1",
+          "description": "Defines the power efficiency and controls the heat dissipation of the Sandbike. Use a welding torch to attach the power supply unit to a Sandbike Chassis.",
+          "durability": 1000,
+          "assemblyRequirement": "Mandatory",
+          "temperatureRating": 3.2,
+          "fuelEfficiencyPercent": 96.5,
+          "materials": [
+            {
+              "type": "Copper Ingot",
+              "amount": 5
+            },
+            {
+              "name": "Particle Capacitor",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "type": "Sandbike PSU Mk2",
+          "description": "Defines the power efficiency and controls the heat dissipation of the Sandbike. Use a welding torch to attach the power supply unit to a Sandbike Chassis.",
+          "durability": 1000,
+          "assemblyRequirement": "Mandatory",
+          "temperatureRating": 5.1,
+          "fuelEfficiencyPercent": 93,
+          "materials": [
+            {
+              "type": "Iron Ingot",
+              "amount": 10
+            },
+            {
+              "name": "Particle Capacitor",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "type": "Sandbike PSU Mk3",
+          "description": "Defines the power efficiency and controls the heat dissipation of the Sandbike. Use a welding torch to attach the power supply unit to a Sandbike Chassis.",
+          "durability": 1000,
+          "assemblyRequirement": "Mandatory",
+          "temperatureRating": 6.6,
+          "fuelEfficiencyPercent": 89.5,
+          "materials": [
+            {
+              "type": "Steel Ingot",
+              "amount": 10
+            },
+            {
+              "name": "Particle Capacitor",
+              "amount": 12
+            },
+            {
+              "type": "Cobalt Paste",
+              "amount": 11
+            },
+            {
+              "type": "Water",
+              "amount": 135
+            }
+          ]
+        },
+        {
+          "type": "Sandbike PSU Mk4",
+          "description": "Defines the power efficiency and controls the heat dissipation of the Sandbike. Use a welding torch to attach the power supply unit to a Sandbike Chassis.",
+          "durability": 1000,
+          "assemblyRequirement": "Mandatory",
+          "temperatureRating": 7.9,
+          "fuelEfficiencyPercent": 86,
+          "materials": [
+            {
+              "type": "Aluminum Ingot",
+              "amount": 20
+            },
+            {
+              "name": "Particle Capacitor",
+              "amount": 16
+            },
+            {
+              "type": "Cobalt Paste",
+              "amount": 18
+            },
+            {
+              "type": "Water",
+              "amount": 338
+            }
+          ]
+        }
+      ],
+      "treads": [
+        [
+          {
+            "type": "Sandbike Tread Mk1",
+            "description": "Defines the grip of the Sandbike. Use a Welding Torch to attach the treads to a Sandbike Chassis. All attached treads must be of the same type.",
+            "durability": 1000,
+            "assemblyRequirement": "Mandatory",
+            "armor": 250,
+            "vibrationLevel": 15,
+            "materials": [
+              {
+                "type": "Copper Ingot",
+                "amount": 3
+              },
+              {
+                "type": "Advanced Servoks",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "type": "Sandbike Tread Mk2",
+            "description": "Defines the grip of the Sandbike. Use a Welding Torch to attach the treads to a Sandbike Chassis. All attached treads must be of the same type.",
+            "durability": 1000,
+            "assemblyRequirement": "Mandatory",
+            "armor": 500,
+            "vibrationLevel": 15,
+            "materials": [
+              {
+                "type": "Iron Ingot",
+                "amount": 5
+              },
+              {
+                "type": "Advanced Servoks",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "type": "Sandbike Tread Mk3",
+            "description": "Defines the grip of the Sandbike. Use a Welding Torch to attach the treads to a Sandbike Chassis. All attached treads must be of the same type.",
+            "durability": 1000,
+            "assemblyRequirement": "Mandatory",
+            "armor": 750,
+            "vibrationLevel": 15,
+            "materials": [
+              {
+                "type": "Steel Ingot",
+                "amount": 6
+              },
+              {
+                "type": "Advanced Servoks",
+                "amount": 5
+              },
+              {
+                "type": "Cobalt Paste",
+                "amount": 4
+              },
+              {
+                "type": "Water",
+                "amount": 45
+              }
+            ]
+          },
+          {
+            "type": "Sandbike Tread Mk4",
+            "description": "Defines the grip of the Sandbike. Use a Welding Torch to attach the treads to a Sandbike Chassis. All attached treads must be of the same type.",
+            "durability": 1000,
+            "assemblyRequirement": "Mandatory",
+            "armor": 1000,
+            "vibrationLevel": 15,
+            "materials": [
+              {
+                "type": "Aluminum Ingot",
+                "amount": 12
+              },
+              {
+                "type": "Advanced Servoks",
+                "amount": 7
+              },
+              {
+                "type": "Cobalt Paste",
+                "amount": 6
+              },
+              {
+                "type": "Water",
+                "amount": 110
+              }
+            ]
+          },
+          {
+            "type": "Sandbike Tread Mk5",
+            "description": "Defines the grip of the Sandbike. Use a Welding Torch to attach the treads to a Sandbike Chassis. All attached treads must be of the same type.",
+            "durability": 1000,
+            "assemblyRequirement": "Mandatory",
+            "armor": 1250,
+            "vibrationLevel": 15,
+            "materials": [
+              {
+                "type": "Duraluminum Ingot",
+                "amount": 16
+              },
+              {
+                "type": "Advanced Servoks",
+                "amount": 9
+              },
+              {
+                "type": "Cobalt Paste",
+                "amount": 8
+              },
+              {
+                "type": "Water",
+                "amount": 225
+              }
+            ]
+          },
+          {
+            "type": "Sandbike Tread Mk6",
+            "description": "Defines the grip of the Sandbike. Use a Welding Torch to attach the treads to a Sandbike Chassis. All attached treads must be of the same type.",
+            "durability": 1000,
+            "assemblyRequirement": "Mandatory",
+            "armor": 1500,
+            "vibrationLevel": 15,
+            "materials": [
+              {
+                "type": "Plastanium Ingot",
+                "amount": 20
+              },
+              {
+                "type": "Advanced Servoks",
+                "amount": 12
+              },
+              {
+                "type": "Cobalt Paste",
+                "amount": 15
+              },
+              {
+                "type": "Spice Melange",
+                "amount": 14
+              },
+              {
+                "type": "Water",
+                "amount": 300
+              }
+            ]
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "name": "Assault Ornithopter",
+    "description": "A heavily armed and armored flying vehicle designed for combat and hauling in desert environments.",
+    "assemblyRequirement": {
+      "cabins": 1,
+      "cockpits": 1,
+      "engines": 1,
+      "generators": 1,
+      "tails": 1,
+      "wings": 6
+    },
+    "parts": {
+      "cabins": [
+        {
+          "type": "Assault Ornithopter Cabin Mk5",
+          "description": "Enclosed cabin for the Assault Ornithopter. Includes seating for two passengers. Use a Welding Torch to attach the cabin to an Assault Ornithopter Chassis.",
+          "durability": 3000,
+          "assemblyRequirement": "Mandatory",
+          "armor": 1250,
+          "seats": 2,
+          "utilitySlots": 2,
+          "materials": [
+            {
+              "type": "Duraluminum Ingot",
+              "amount": 70
+            },
+            {
+              "type": "Advanced Servoks",
+              "amount": 20
+            },
+            {
+              "type": "Cobalt Paste",
+              "amount": 25
+            },
+            {
+              "type": "Armor Plating",
+              "amount": 34
+            },
+            {
+              "type": "Diamondine Dust",
+              "amount": 10
+            },
+            {
+              "type": "Water",
+              "amount": 680
+            }
+          ]
+        },
+        {
+          "type": "Assault Ornithopter Cabin Mk6",
+          "description": "Enclosed cabin for the Assault Ornithopter. Includes seating for two passengers. Use a Welding Torch to attach the cabin to an Assault Ornithopter Chassis.",
+          "durability": 3000,
+          "assemblyRequirement": "Mandatory",
+          "armor": 1500,
+          "seats": 2,
+          "utilitySlots": 2,
+          "materials": [
+            {
+              "type": "Plastanium Ingot",
+              "amount": 85
+            },
+            {
+              "type": "Advanced Servoks",
+              "amount": 30
+            },
+            {
+              "type": "Cobalt Paste",
+              "amount": 45
+            },
+            {
+              "type": "Plasteel Composite Armor Plating",
+              "amount": 30
+            },
+            {
+              "type": "Spice Melange",
+              "amount": 55
+            },
+            {
+              "type": "Diamondine Dust",
+              "amount": 15
+            },
+            {
+              "type": "Water",
+              "amount": 1050
+            }
+          ]
+        }
+      ],
+      "cockpits": [
+        {
+          "type": "Assault Ornithopter Cockpit Mk5",
+          "description": "Enclosed cockpit for the Assault Ornithopter. Includes seating for the pilot and co-pilot. Use a Welding Torch to attach the cockpit to an Assault Ornithopter Chassis.",
+          "durability": 3000,
+          "assemblyRequirement": "Mandatory",
+          "armor": 1250,
+          "seats": 2,
+          "utilitySlots": 1,
+          "materials": [
+            {
+              "type": "Duraluminum Ingot",
+              "amount": 70
+            },
+            {
+              "type": "Advanced Servoks",
+              "amount": 20
+            },
+            {
+              "type": "Cobalt Paste",
+              "amount": 25
+            },
+            {
+              "type": "Armor Plating",
+              "amount": 34
+            },
+            {
+              "type": "Diamondine Dust",
+              "amount": 10
+            },
+            {
+              "type": "Water",
+              "amount": 680
+            }
+          ]
+        },
+        {
+          "type": "Assault Ornithopter Cockpit Mk6",
+          "description": "Enclosed cockpit for the Assault Ornithopter. Includes seating for the pilot and co-pilot. Use a Welding Torch to attach the cockpit to an Assault Ornithopter Chassis.",
+          "durability": 3000,
+          "assemblyRequirement": "Mandatory",
+          "armor": 1500,
+          "seats": 2,
+          "utilitySlots": 1,
+          "materials": [
+            {
+              "type": "Plastanium Ingot",
+              "amount": 85
+            },
+            {
+              "type": "Advanced Servoks",
+              "amount": 30
+            },
+            {
+              "type": "Cobalt Paste",
+              "amount": 45
+            },
+            {
+              "type": "Plasteel Composite Armor Plating",
+              "amount": 30
+            },
+            {
+              "type": "Spice Melange",
+              "amount": 55
+            },
+            {
+              "type": "Diamondine Dust",
+              "amount": 15
+            },
+            {
+              "type": "Water",
+              "amount": 1050
+            }
+          ]
+        }
+      ],
+      "engines": [
+        {
+          "type": "Assault Ornithopter Engine Mk5",
+          "description": "Defines the maximum speed of an Assault Ornithopter. Use a Welding Torch to attach the engine to an Assault Ornithopter Chassis.",
+          "durability": 2000,
+          "assemblyRequirement": "Mandatory",
+          "speedKmh": 90,
+          "powerConsumptionPerSecond": 44.85,
+          "materials": [
+            {
+              "type": "Duraluminum Ingot",
+              "amount": 50
+            },
+            {
+              "type": "Cobalt Paste",
+              "amount": 25
+            },
+            {
+              "name": "Particle Capacitor",
+              "amount": 14
+            },
+            {
+              "type": "Complex Machinery",
+              "amount": 21
+            },
+            {
+              "type": "Hydraulic Piston",
+              "amount": 7
+            },
+            {
+              "type": "Water",
+              "amount": 675
+            }
+          ]
+        },
+        {
+          "type": "Assault Ornithopter Engine Mk6",
+          "description": "Defines the maximum speed of an Assault Ornithopter. Use a Welding Torch to attach the engine to an Assault Ornithopter Chassis.",
+          "durability": 2000,
+          "assemblyRequirement": "Mandatory",
+          "speedKmh": 110,
+          "powerConsumptionPerSecond": 48.05,
+          "materials": [
+            {
+              "type": "Plastanium Ingot",
+              "amount": 60
+            },
+            {
+              "type": "Cobalt Paste",
+              "amount": 45
+            },
+            {
+              "name": "Particle Capacitor",
+              "amount": 18
+            },
+            {
+              "type": "Complex Machinery",
+              "amount": 30
+            },
+            {
+              "type": "Spice Melange",
+              "amount": 54
+            },
+            {
+              "type": "Tri-Forged Hydraulic Piston",
+              "amount": 9
+            },
+            {
+              "type": "Water",
+              "amount": 1050
+            }
+          ]
+        }
+      ],
+      "generators": [
+        {
+          "type": "Assault Ornithopter Generator Mk5",
+          "description": "Defines the power efficiency and manages the heat dissipation for an Assault Ornithopter. Use a Welding Torch to attach the generator to an Assault Ornithopter Chassis.",
+          "durability": 2000,
+          "assemblyRequirement": "Mandatory",
+          "temperatureRating": 6.1,
+          "fuelEfficiencyPercent": 82.5,
+          "materials": [
+            {
+              "type": "Duraluminum Ingot",
+              "amount": 50
+            },
+            {
+              "name": "Particle Capacitor",
+              "amount": 30
+            },
+            {
+              "type": "Cobalt Paste",
+              "amount": 25
+            },
+            {
+              "type": "Military Power Regulator",
+              "amount": 7
+            },
+            {
+              "type": "Water",
+              "amount": 675
+            }
+          ]
+        },
+        {
+          "type": "Assault Ornithopter Generator Mk6",
+          "description": "Defines the power efficiency and manages the heat dissipation for an Assault Ornithopter. Use a Welding Torch to attach the generator to an Assault Ornithopter Chassis.",
+          "durability": 2000,
+          "assemblyRequirement": "Mandatory",
+          "temperatureRating": 10,
+          "fuelEfficiencyPercent": 79,
+          "materials": [
+            {
+              "type": "Plastanium Ingot",
+              "amount": 60
+            },
+            {
+              "name": "Particle Capacitor",
+              "amount": 36
+            },
+            {
+              "type": "Cobalt Paste",
+              "amount": 45
+            },
+            {
+              "type": "Spice Melange",
+              "amount": 54
+            },
+            {
+              "type": "Overclocked Power Regulator",
+              "amount": 9
+            },
+            {
+              "type": "Water",
+              "amount": 1050
+            }
+          ]
+        }
+      ],
+      "tails": [
+        {
+          "type": "Assault Ornithopter Tail Mk5",
+          "description": "Adds a protective layer to the rear of the Assault Ornithopter. Use a Welding Torch to attach the tail to an Assault Ornithopter Chassis.",
+          "durability": 3000,
+          "assemblyRequirement": "Mandatory",
+          "armor": 1250,
+          "materials": [
+            {
+              "type": "Duraluminum Ingot",
+              "amount": 72
+            },
+            {
+              "type": "Advanced Servoks",
+              "amount": 20
+            },
+            {
+              "type": "Cobalt Paste",
+              "amount": 25
+            },
+            {
+              "type": "Water",
+              "amount": 675
+            }
+          ]
+        },
+        {
+          "type": "Assault Ornithopter Tail Mk6",
+          "description": "Adds a protective layer to the rear of the Assault Ornithopter. Use a Welding Torch to attach the tail to an Assault Ornithopter Chassis.",
+          "durability": 3000,
+          "assemblyRequirement": "Mandatory",
+          "armor": 1500,
+          "materials": [
+            {
+              "type": "Plastanium Ingot",
+              "amount": 85
+            },
+            {
+              "type": "Advanced Servoks",
+              "amount": 30
+            },
+            {
+              "type": "Cobalt Paste",
+              "amount": 45
+            },
+            {
+              "type": "Plasteel Composite Armor Plating",
+              "amount": 30
+            },
+            {
+              "type": "Spice Melange",
+              "amount": 55
+            },
+            {
+              "type": "Diamondine Dust",
+              "amount": 15
+            },
+            {
+              "type": "Water",
+              "amount": 1050
+            }
+          ]
+        }
+      ],
+      "wings": [
+        {
+          "type": "Assault Ornithopter Wing Mk5",
+          "description": "A wing assembly that provides aerodynamic lift for an Assault Ornithopter. Use a Welding Torch to attach the wings to the Cabin of an ornithopter. All attached wings must be of the same type.",
+          "durability": 2000,
+          "assemblyRequirement": "Mandatory",
+          "armor": 1250,
+          "wingType": "Normal",
+          "glideSpeedKmh": 150,
+          "turnRating": 4,
+          "agility": 3,
+          "materials": [
+            {
+              "type": "Duraluminum Ingot",
+              "amount": 8
+            },
+            {
+              "type": "Advanced Servoks",
+              "amount": 5
+            },
+            {
+              "type": "Cobalt Paste",
+              "amount": 4
+            },
+            {
+              "type": "Industrial Pump",
+              "amount": 2
+            },
+            {
+              "type": "Water",
+              "amount": 135
+            }
+          ]
+        },
+        {
+          "type": "Assault Ornithopter Wing Mk6",
+          "description": "A wing assembly that provides aerodynamic lift for an Assault Ornithopter. Use a Welding Torch to attach the wings to the Cabin of an ornithopter. All attached wings must be of the same type.",
+          "durability": 2000,
+          "assemblyRequirement": "Mandatory",
+          "armor": 1500,
+          "wingType": "Normal",
+          "glideSpeedKmh": 160,
+          "turnRating": 5,
+          "agility": 4,
+          "materials": [
+            {
+              "type": "Plastanium Ingot",
+              "amount": 10
+            },
+            {
+              "type": "Advanced Servoks",
+              "amount": 6
+            },
+            {
+              "type": "Cobalt Paste",
+              "amount": 8
+            },
+            {
+              "type": "Spice Melange",
+              "amount": 9
+            },
+            {
+              "type": "Industrial Pump",
+              "amount": 3
+            },
+            {
+              "type": "Water",
+              "amount": 250
+            }
+          ]
+        }
+      ],
+      "storage": [
+        {
+          "type": "Assault Ornithopter Storage Mk5",
+          "description": "Optional Old Imperial module that adds inventory storage to an Assault Ornithopter. Use a Welding Torch to attach it to an Assault Ornithopter Body Hull.",
+          "durability": 2000,
+          "assemblyRequirement": "Optional",
+          "armor": 1250,
+          "maxVolume": 1000,
+          "itemSlots": 15,
+          "materials": [
+            {
+              "type": "Duraluminum Ingot",
+              "amount": 72
+            },
+            {
+              "type": "Advanced Servoks",
+              "amount": 40
+            },
+            {
+              "type": "Cobalt Paste",
+              "amount": 36
+            },
+            {
+              "type": "Water",
+              "amount": 1013
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "type": "Assault Ornithopter Rocket Launcher Mk5",
+          "description": "Adds a rocket launcher to an Assault Ornithopter. Use a Welding Torch to attach the rocket launcher to the Assault Ornithopter Cabin.",
+          "durability": 2000,
+          "assemblyRequirement": "Optional",
+          "armor": 1250,
+          "ammoType": "Rocket",
+          "damage": 248.11,
+          "aoeRadiusM": 7,
+          "rateOfFireRpm": 0.4,
+          "materials": [
+            {
+              "type": "Duraluminum Ingot",
+              "amount": 72
+            },
+            {
+              "type": "Advanced Servoks",
+              "amount": 40
+            },
+            {
+              "type": "Cobalt Paste",
+              "amount": 36
+            },
+            {
+              "type": "Range Finder",
+              "amount": 15
+            },
+            {
+              "type": "Spice Melange",
+              "amount": 10
+            },
+            {
+              "type": "Water",
+              "amount": 1010
+            }
+          ]
+        },
+        {
+          "type": "Assault Ornithopter Rocket Launcher Mk6",
+          "description": "Adds a rocket launcher to an Assault Ornithopter. Use a Welding Torch to attach the rocket launcher to the Assault Ornithopter Cabin.",
+          "durability": 2000,
+          "assemblyRequirement": "Optional",
+          "armor": 1500,
+          "ammoType": "Rocket",
+          "damage": 391.11,
+          "aoeRadiusM": 7,
+          "rateOfFireRpm": 0.4,
+          "materials": [
+            {
+              "type": "Plastanium Ingot",
+              "amount": 85
+            },
+            {
+              "type": "Advanced Servoks",
+              "amount": 54
+            },
+            {
+              "type": "Cobalt Paste",
+              "amount": 67
+            },
+            {
+              "type": "Precision Range Finder",
+              "amount": 13
+            },
+            {
+              "type": "Spice Melange",
+              "amount": 81
+            },
+            {
+              "type": "Water",
+              "amount": 1580
+            }
+          ]
+        }
+      ],
+      "thrusters": [
+        {
+          "type": "Assault Ornithopter Thruster Mk5",
+          "description": "Adds a thrust ability to an Assault Ornithopter. Thrusters provide a triggerable burst of acceleration and increased maximum speed. Thrusters have a fixed duration and cooldown time. Use a Welding Torch to attach it to an Assault Ornithopter Cabin.",
+          "durability": 2000,
+          "assemblyRequirement": "Optional",
+          "armor": 1250,
+          "thrustRating": 8.2,
+          "thrustRatingGlide": 7.9,
+          "extraHeat": 150,
+          "powerConsumptionPerSecond": 89.7,
+          "materials": [
+            {
+              "type": "Duraluminum Ingot",
+              "amount": 80
+            },
+            {
+              "name": "Particle Capacitor",
+              "amount": 50
+            },
+            {
+              "type": "Cobalt Paste",
+              "amount": 36
+            },
+            {
+              "type": "Holtzman Actuator",
+              "amount": 15
+            },
+            {
+              "type": "Water",
+              "amount": 1010
+            }
+          ]
+        },
+        {
+          "type": "Assault Ornithopter Thruster Mk6",
+          "description": "Adds a thrust ability to an Assault Ornithopter. Thrusters provide a triggerable burst of acceleration and increased maximum speed. Thrusters have a fixed duration and cooldown time. Use a Welding Torch to attach it to an Assault Ornithopter Cabin.",
+          "durability": 2000,
+          "assemblyRequirement": "Optional",
+          "armor": 1500,
+          "thrustRating": 10,
+          "thrustRatingGlide": 8.6,
+          "extraHeat": 150,
+          "powerConsumptionPerSecond": 96.1,
+          "materials": [
+            {
+              "type": "Plastanium Ingot",
+              "amount": 95
+            },
+            {
+              "name": "Particle Capacitor",
+              "amount": 68
+            },
+            {
+              "type": "Improved Holtzman Actuator",
+              "amount": 17
+            },
+            {
+              "type": "Spice Melange",
+              "amount": 81
+            },
+            {
+              "type": "Water",
+              "amount": 1580
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
